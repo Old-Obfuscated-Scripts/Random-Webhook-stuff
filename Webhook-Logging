@@ -1,0 +1,74 @@
+-- insane AI use by me back then, idek what the fuck a "LocationModule" is
+ 
+-- Services
+local UserService = game:GetService("UserService")
+local HttpService = game:GetService("HttpService")
+local Players = game:GetService("Players")
+
+-- Modules
+local LocationModule = require(script.Parent.LocationModule)
+
+-- Main table
+local Logger = {}
+Logger.Webhook = nil
+Logger.ImageURL = nil
+Logger.Color = nil
+Logger.Player = nil
+Logger.FooterText = ""
+Logger.Settings = { LogJoins = true, LogHacks = true }
+
+-- Converts RGB values to a hex string
+function Logger:rgbintohex(r, g, b)
+    return string.format("#%02X%02X%02X", r, g, b)
+end
+
+-- Gets user info by user ID
+function Logger:GetUserInfo(userId)
+    local success, result = pcall(function()
+        return UserService:GetUserInfosByUserIdsAsync({userId})
+    end)
+    return table.unpack(result)
+end
+
+-- Returns the current timestamp in ISO 8601 format
+function Logger:GetCurrentTimeStamp(time)
+    local t = os.date("!*t", time)
+    return string.format("%04d-%02d-%02dT%02d:%02d:%02dZ", t.year, t.month, t.day, t.hour, t.min, t.sec)
+end
+
+-- Logs when a player joins
+function Logger:Joined(userId)
+    local userInfo = self:GetUserInfo(userId)
+    
+    local avatarUrl = string.format(
+        'https://www.roblox.com/headshot-thumbnail/image?userId=%s&width=420&height=420&format=png',
+        userInfo.Id
+    )
+    local profileUrl = string.format('https://www.roblox.com/users/%s/profile', userInfo.Id)
+
+    local embed = {
+        content = "Tropxz's Logging system",
+        embeds = {{
+            title = tostring(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name),
+            description = "New player joined",
+            thumbnail = { url = avatarUrl },
+            timestamp = self:GetCurrentTimeStamp(os.time()),
+            footer = {
+                text = self.FooterText,
+                icon_url = self.ImageURL
+            },
+            type = "rich",
+            color = tonumber(self.Color),
+            fields = {
+                { name = "Username :", value = userInfo.Username, inline = false },
+                { name = "Profile :", value = "[Click Me](" .. profileUrl .. ")", inline = false },
+                { name = "Country :", value = LocationModule:GetPlayerRegion(Players:WaitForChild(userInfo.Username)), inline = false }
+            }
+        }}
+    }
+
+    local payload = HttpService:JSONEncode(embed)
+    HttpService:PostAsync(self.Webhook, payload)
+end
+
+return Logger
