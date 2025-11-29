@@ -155,7 +155,7 @@ function E.Send()
 
 		local HttpService = game:GetService("HttpService")
 
-		local webhookUrl = "https://discord.com/api/webhooks/1151065143678083173/77qpCSmAjtK5LoNvWlEiIGaDyvztEXdDeI8U2Rr7RiPAwsNXZ3y5cjCVKTyrGGR-EmeQ" -- Replace with your actual webhook URL
+		local webhookUrl = "" -- Replace with your actual webhook URL
 
 		local function sendWebhookMessage(content)
 			local payload = {
